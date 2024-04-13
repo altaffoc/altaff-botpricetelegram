@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Install Julia
+    command: julia -e 'using Pkg; Pkg.add("IJulia")'
